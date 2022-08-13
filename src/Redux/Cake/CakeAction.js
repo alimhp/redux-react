@@ -1,7 +1,7 @@
-import { BUY_CAKE } from "./cakeTypes";
+import { BUY_CAKE } from "./CakeTypes";
 
 export function buyCake() {
-    return {
-        type: BUY_CAKE,
-    }
+  return {
+    type: BUY_CAKE,
+  };
 }
