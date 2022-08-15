@@ -8,8 +8,8 @@ const HooksCakeContainer = () => {
   const dispatch = useDispatch();
   return (
     <div>
-      <div>number of cake - {numOfIceCream} </div>
-      <button onClick={() => dispatch(buyIceCream())}>buy cake</button>
+      <div>number of iceCream - {numOfIceCream} </div>
+      <button onClick={() => dispatch(buyIceCream())}>buy iceCream</button>
     </div>
   );
 };
